@@ -1,4 +1,4 @@
-FROM alpine:3.5
+FROM alpine
 MAINTAINER Chan <chan@gmail.com>
 ADD hello /
 ENTRYPOINT ["/hello"]
