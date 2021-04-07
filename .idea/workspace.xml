@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8e5e6912-d094-4be3-8461-3dc330178311" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GOROOT" path="/usr/local/Cellar/go/1.14.5/libexec" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="ProjectId" id="1qq4ddwV2zZ8UDWpNbbaQg8AkKT" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="settings.editor.selected.configurable" value="go.vgo" />
+  </component>
+  <component name="RunManager">
+    <configuration name="go build github.com/CHENZIBIN47/devtool" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="devtool" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <package value="github.com/CHENZIBIN47/devtool" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build github.com/CHENZIBIN47/devtool" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+    <environment>
+      <map>
+        <entry key="GOPROXY" value="https://goproxy.io/" />
+        <entry key="GOSUMDB" value="off" />
+      </map>
+    </environment>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="795" y="413" key="EnvironmentVariablesDialog" timestamp="1617804746676">
+      <screen x="0" y="23" width="1792" height="1042" />
+    </state>
+    <state x="795" y="413" key="EnvironmentVariablesDialog/0.23.1792.1042@0.23.1792.1042" timestamp="1617804746676" />
+    <state width="1750" height="342" key="GridCell.Tab.0.bottom" timestamp="1617804795144">
+      <screen x="0" y="23" width="1792" height="1042" />
+    </state>
+    <state width="1750" height="342" key="GridCell.Tab.0.bottom/0.23.1792.1042@0.23.1792.1042" timestamp="1617804795144" />
+    <state width="1750" height="342" key="GridCell.Tab.0.center" timestamp="1617804795143">
+      <screen x="0" y="23" width="1792" height="1042" />
+    </state>
+    <state width="1750" height="342" key="GridCell.Tab.0.center/0.23.1792.1042@0.23.1792.1042" timestamp="1617804795143" />
+    <state width="1750" height="342" key="GridCell.Tab.0.left" timestamp="1617804795142">
+      <screen x="0" y="23" width="1792" height="1042" />
+    </state>
+    <state width="1750" height="342" key="GridCell.Tab.0.left/0.23.1792.1042@0.23.1792.1042" timestamp="1617804795142" />
+    <state width="1750" height="342" key="GridCell.Tab.0.right" timestamp="1617804795143">
+      <screen x="0" y="23" width="1792" height="1042" />
+    </state>
+    <state width="1750" height="342" key="GridCell.Tab.0.right/0.23.1792.1042@0.23.1792.1042" timestamp="1617804795143" />
+    <state x="397" y="183" key="SettingsEditor" timestamp="1617804747803">
+      <screen x="0" y="23" width="1792" height="1042" />
+    </state>
+    <state x="397" y="183" key="SettingsEditor/0.23.1792.1042@0.23.1792.1042" timestamp="1617804747803" />
+  </component>
+</project>
