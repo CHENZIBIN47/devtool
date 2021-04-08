@@ -1,23 +1,18 @@
-FROM golang:1.13.5-alpine3.10 AS builder
+FROM hub.chan.com/dev/golang:1.13 as build
+ENV GOPROXY https://goproxy.io
+ENV GO111MODULE on
+ENV GOSUMDB off
 
-WORKDIR /build
-RUN adduser -u 10001 -D app-runner
-
-ENV GOPROXY https://goproxy.cn
-COPY go.mod .
-COPY go.sum .
+WORKDIR /go/cache
+ADD go.mod .
+ADD go.sum .
 RUN go mod download
+WORKDIR /go/release
+ADD . .
+RUN GOOS=linux CGO_ENABLED=0 go build -ldflags="-s -w" -installsuffix cgo -o devtool main.go
 
-COPY . .
-RUN CGO_ENABLED=0 GOARCH=amd64 GOOS=linux go build -a -o your-application .
-
-FROM alpine:3.10 AS final
-
-WORKDIR /app
-COPY --from=builder /build/your-application /app/
-#COPY --from=builder /build/config /app/config
-COPY --from=builder /etc/passwd /etc/passwd
-COPY --from=builder /etc/ssl/certs/ca-certificates.crt /etc/ssl/certs/
-
-USER app-runner
-ENTRYPOINT ["/app/your-application"]
+FROM scratch as prod
+COPY --from=build /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
+COPY --from=build /go/release/devtool /
+COPY --from=build /go/release/conf ./conf
+CMD ["/devtool"]
