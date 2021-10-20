@@ -1,4 +1,4 @@
-FROM hub.chan.com/dev/golang:1.13 as build
+FROM chan.harbor.com/dev/golang:1.13 as build
 ENV GOPROXY https://goproxy.io
 ENV GO111MODULE on
 ENV GOSUMDB off
